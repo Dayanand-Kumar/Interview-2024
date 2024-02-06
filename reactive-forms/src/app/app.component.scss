@@ -1,15 +1,45 @@
-*{
-    position: relative;
-}
+// *{
+//     position: relative;
+// }
 .container{
-    height: 150px;
+  
     width: 100vw;
     background-color: antiquewhite;
     display: flex;
     align-items: center;
-    justify-content: space-even;
+    justify-content: space-between;
+    height: auto;
 }
 p{
     width: 200px;
+   
+}
+/* position related code!*/
+.container-position{
+    height: 90vh;
+    width: 90vw;
+    border: 2px solid #000;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    position: relative;
 }
 
+.box{
+    width: auto;
+    height: 50px;
+    background-color: aqua;
+    padding: 5px;
+   
+}
+#box1{
+    // position: relative;
+}
+#box2{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background-color: rgb(105, 66, 102);
+}
+
+//dropdown
