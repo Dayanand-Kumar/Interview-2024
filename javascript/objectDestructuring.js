@@ -29,3 +29,8 @@ function displayFullName({firstName, lastName}){
     console.log("destructuring in the function parametes => ", `${firstName} ${lastName}`);
 }
 displayFullName(personData)
+
+//Combining object and Array Destructuring
+const complexData = {name2:'Jane', details:{age2 : 35, hobbies:['painting', 'gardening']}};
+const {name2, details : {age2, hobbies}} = complexData;
+console.log("destructuring in Array => ",name2, age2, hobbies);
