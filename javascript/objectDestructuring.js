@@ -34,3 +34,13 @@ displayFullName(personData)
 const complexData = {name2:'Jane', details:{age2 : 35, hobbies:['painting', 'gardening']}};
 const {name2, details : {age2, hobbies}} = complexData;
 console.log("destructuring in Array => ",name2, age2, hobbies);
+
+/**
+ * 1.Extract properties in Object Destructuring.
+ * 2.Default values in Object Destructuring.
+ * 3.Extracting Properties from Nested Objects.
+ * 4.Renaming properties in Destructuring.
+ * 5.Rest parameter in Object Destructuring.
+ * 6.Object Destructuring in the function parameters
+ * 7.Combining object and Array Destructuring
+ */
