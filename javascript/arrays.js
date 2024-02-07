@@ -48,4 +48,6 @@ const arr_4 = [10,20,30,40,50];
 const greaterThan30 = (item) => item >30;
 console.log("findIndex =>", arr_4.findIndex(greaterThan30))
 
+//8.
+
 
