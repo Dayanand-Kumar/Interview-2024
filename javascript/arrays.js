@@ -48,6 +48,23 @@ const arr_4 = [10,20,30,40,50];
 const greaterThan30 = (item) => item >30;
 console.log("findIndex =>", arr_4.findIndex(greaterThan30))
 
-//8.
+//8.find
+//Def: This method returns the value of the first element in an array that passses a test (provided as a function). if no element passes the test , it returns undefined.
+const arr_5 = [10,20,30,40,50,60];
+const greaterThan20 = (num) => num > 20; // function 
+const result_1 = arr_5.find(greaterThan20); //testing the function here.
+console.log("Find method =>",result_1)
+
+//9.of
+//Def: This method creates a new array instance with a variable number of arguments, regardlessof number or type of the arguments.
+console.log("of Method =>", Array.of(1,2,3,4,"Hello", "Array"));
+
+//10.every
+//Def:This method checks if all elements in an array pass atest(provided as a function).Itreturns true if all elements pass the test , otherwise, it returns false.
+const arr_6 = [2,4,6,8]
+const isEven = (num) => num %2 === 0; //we are collecting the evennumbers
+const result_2 = arr_6.every(isEven); // we are checking the collected numbers are even or not.
+console.log("every Method.",result_2);
+
 
 
