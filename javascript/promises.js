@@ -35,3 +35,9 @@ getBread()
         .then(serve)
         .then(finalProduct => console.log(`Enjoy Your ${finalProduct}!`))
         .catch(error => console.log(`Something went wrong : ${error}`));
+
+//Promise chain :
+/**
+ * In JavaScript, 
+ * promise chaining is a technique used to manage multiple asynchronous operations sequentially, one after the other. 
+ */
