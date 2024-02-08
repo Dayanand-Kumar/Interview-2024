@@ -24,5 +24,14 @@
 23.what is http interceptors?
 24.use of trackBy in *ngFor?
 25. what is ng g c?
+26.what is the use of the this keyword in javascript?
+27.explain about the currying in javascript.
+28.explain about the call, apply and bind methods.
+29.explain about the types of functions in java.
+30 explain about the higher order functions in java.
+31.explain about the callback functions.
+32.what are the webapi's?
+33.what is a temporal dead zone?
+34.
 
 */
