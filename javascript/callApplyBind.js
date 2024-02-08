@@ -56,3 +56,22 @@ let participant6 = {
 }
 participant5.chargeBattery.apply(participant6, [20,30])
 console.log("Apply with arguments",participant6)
+
+/*
+    The bing method does not invokes the method, it returns the function. It can be invoked at a later point at any time.
+*/
+let participant7 = {
+    name : "Dayanand",
+    battery : 70,
+    chargeBattery : function(a, b){
+        this.battery = this.battery + a + b;
+    }
+}
+let participant8 = {
+    name: "Samuel",
+    battery : 10
+}
+let rechargeBatteryOfParticipant8 = participant7.chargeBattery.bind(participant8,20,30);
+rechargeBatteryOfParticipant8();
+console.log("bind method => ",participant8);
+
